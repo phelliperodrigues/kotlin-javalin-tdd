@@ -4,6 +4,11 @@ import br.com.phellipe.controller.UserController
 import io.javalin.Javalin
 import io.javalin.apibuilder.ApiBuilder.get
 import io.javalin.apibuilder.ApiBuilder.post
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
+
+
+
 
 class JavalinApp {
 
